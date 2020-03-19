@@ -1,0 +1,30 @@
+#gameScreen{
+    border: 1px solid black;
+    height: 90vh;
+            }
+img{
+    display: none;
+            }
+
+@font-face {
+    src: url("/static/assets/bit_font.TTF");
+    font-family: bit_font;
+}
+
+nav {
+    font-family: bit_font, serif;
+}
+
+#gameBackground{
+    text-align: center;
+}
+
+    /*#pictureCanvas {*/
+    /*  position: relative;*/
+    /*}*/
+
+    /*#newGame {*/
+    /*  position: absolute;*/
+    /*  top: 666px;*/
+    /*  left: 706px;*/
+    /*}*/

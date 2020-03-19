@@ -1,0 +1,11 @@
+{% extends "template.html" %}
+
+        {% block content %}
+        <div id="gameBackground">
+            <img alt="ball" id="img_ball" src="{{ url_for('static', filename='/assets/ball.png') }}">
+            <img alt="brick" id="img_brick" src="{{ url_for('static', filename='/assets/brick1.jpg') }}">
+            <canvas id="gameScreen" width="800" height="600"></canvas>
+        </div>
+        {% endblock %}
+
+
