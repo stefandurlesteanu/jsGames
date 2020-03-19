@@ -11,12 +11,23 @@ img{
     font-family: bit_font;
 }
 
+@font-face {
+    src: url("/static/assets/BLOODY.ttf");
+    font-family: vamp;
+}
+
 nav {
     font-family: bit_font, serif;
+
 }
 
 #gameBackground{
     text-align: center;
+}
+
+#vamp {
+    font-family: vamp;
+    font-size: 150%;
 }
 
     /*#pictureCanvas {*/
@@ -28,3 +39,4 @@ nav {
     /*  top: 666px;*/
     /*  left: 706px;*/
     /*}*/
+
